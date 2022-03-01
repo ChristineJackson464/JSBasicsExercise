@@ -21,14 +21,15 @@ console.log("1"); // 1
 */
 
 // 4. Use modulus to get a remainder of 1 from the number 
-console.log(10%3); //1
+console.log(5%4); //1
+console.log(5%2); //1
 
 // 5. (There are two answers for this one. Please provide both. Also, please type them both out. Do not just type out the two numbers)
 //  Using single quotes at the start and end of the string have the words I'M MARY POPPINS, Y'ALL! display in the terminal/console (Must use a console log for this one.)
 console.log('I\'M MARY POPPINS, Y\'ALL!'); //I'M MARY POPPINS, Y'ALL!
 
 // 6. Using Concatenation combine the following strings into one string. First string: "Hawk". Second string: "eye".
-console.log("Hawk" + "eye");
+console.log("Hawk" + "eye"); // Hawkeye
 
 // 7. Create a string for your first name and also your last name. Use the length property to add them together. 
 console.log('Christine'.length + 'Jackson'.length); //16
@@ -40,7 +41,10 @@ console.log("Avengers: Endgame" [16]); //e
 // BONUS
 
 // B-1. Create a string that displays only a backslash when it is displayed in the console/terminal
-console.log('I\\\'M MARY POPPINS, Y\'ALL!'); //I\'M MARY POPPINS, Y'ALL!
+// INCORRECT:
+// console.log('I\\\'M MARY POPPINS, Y\'ALL!'); //I\'M MARY POPPINS, Y'ALL!
+// CORRECT ANSWER:
+console.log("\\"); // \
 
 // B-2. Use the following numbers in the order shown to get a result of the 616. Numbers are 5, 4, and 9 
 console.log((5**4)-9);
@@ -54,13 +58,21 @@ console.log("VISION"[0]);
 console.log("OKOYE"[4]);
 console.log("NICK FURY"[0]);
 console.log("GROOT"[0]);
-console.log("DOCTOR STRANGE"[12]);
+console.log("DOCTOR STRANGE"[13]);
 console.log("THOR"[3]);
 console.log("STAR-LORD"[0]);
+
+// Horizontally
+// console.log("CAP"[1] + "VISION"[0] + "OKOYE"[4] + "NICK FURY"[0] + "GROOT"[0] + "DOCTOR STRANGE"[13] + "THOR"[3] + "STAR-LORD"[0]);
+// &
+//lArray= ["CAP", "VISION", "OKOYE", "NICK FURY", "GROOT", "DOCTOR STRANGE", "THOR", "STAR-LORD"]
+//console.log(lArray[0][1]+ lArray[1][0]+lArray[2][4]+lArray[3][0]+lArray[4][0]+lArray[5][13]+lArray[6][3]+ lArray[7][0])
 
 // B-5. Create the following variables with the following values m=25 and c=4. Create a variable with the name of u and set the value for it by adding m and c together (NOTE: Must add actual variables NOT just 25 + 4 when setting value for the u variable).
 let m=25;
 let c=4;
-let u=c+m;
+let u=m+c;
+console.log(u);
+// 29
 
 
